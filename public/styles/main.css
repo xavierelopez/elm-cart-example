@@ -1,0 +1,188 @@
+body {
+  background-color: white;
+  padding: 0;
+  font-family: Avenir Next;
+  font-size: 16px;
+  padding-bottom: 100px; }
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px; }
+
+.elm-cart-loader {
+  width: 60px;
+  height: 60px; }
+
+.elm-cart-logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 100px;
+  background-size: 100%;
+  margin: 0 auto;
+  margin-bottom: 75px; }
+
+.elm-cart-header {
+  width: 100%;
+  border-bottom: 1px solid #C1BEBE;
+  padding: 20px;
+  margin: 0 0 100px 0;
+  text-align: right;
+  padding-right: 0; }
+  .elm-cart-header a {
+    color: black;
+    font-weight: 600; }
+    .elm-cart-header a:hover, .elm-cart-header a:active {
+      color: #2A9339;
+      text-decoration: none; }
+  .elm-cart-header-number {
+    margin-right: 30px; }
+  .elm-cart-header-checkout {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("../img/checkout-bag.png");
+    width: 30px;
+    height: 30px;
+    vertical-align: -9px;
+    background-size: 100% 100%;
+    margin: auto 0 auto 100px;
+    cursor: pointer; }
+
+.elm-cart-checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.elm-cart-sc-items {
+  padding: 0;
+  margin: 30px 0;
+  list-style-type: none; }
+
+.elm-cart-sc-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  width: 400px;
+  margin: 10px 0; }
+  .elm-cart-sc-item-customization {
+    list-style-type: none;
+    font-style: italic; }
+  .elm-cart-sc-item-quantity {
+    font-weight: 600; }
+  .elm-cart-sc-item-remove {
+    font-weight: bold;
+    cursor: pointer; }
+
+.elm-cart-sc {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 400px; }
+
+.elm-cart-sc-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 50px; }
+  .elm-cart-sc-total-number {
+    font-weight: bold; }
+
+.elm-cart-postcheckout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .elm-cart-postcheckout-image {
+    margin: 30px 0;
+    width: 200px;
+    height: 200px; }
+  .elm-cart-postcheckout h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .elm-cart-postcheckout .elm-cart-button {
+    padding: 10px 15px; }
+
+.elm-cart-button {
+  border: 3px solid black;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 8px;
+  background: white;
+  cursor: pointer; }
+  .elm-cart-button:disabled {
+    cursor: default;
+    background: #f1f1f1;
+    color: white;
+    border: 1px solid #dedede; }
+
+.elm-cart-product-detail {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .elm-cart-product-detail-name {
+    font-weight: 600;
+    font-size: 30px; }
+  .elm-cart-product-detail-image {
+    max-height: 100px;
+    margin: 20px 0; }
+  .elm-cart-product-detail-add {
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 150px;
+    margin-top: 10px; }
+  .elm-cart-product-detail-price {
+    font-size: 24px; }
+  .elm-cart-product-detail-description {
+    margin: 30px 0;
+    max-width: 400px; }
+  .elm-cart-product-detail .elm-cart-product-customization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .elm-cart-product-detail .elm-cart-product-customization input {
+      align-self: flex-end; }
+    .elm-cart-product-detail .elm-cart-product-customization label {
+      font-weight: normal;
+      align-self: flex-start;
+      text-align: left;
+      width: 100px; }
+
+.elm-cart-products {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center; }
+
+.elm-cart-product {
+  cursor: pointer;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .elm-cart-product-image img {
+    display: block;
+    margin: 0 auto;
+    max-height: 100px; }
+  .elm-cart-product-price {
+    width: 150px;
+    margin: 0 auto; }
+  .elm-cart-product-name {
+    text-align: center;
+    margin: 20px 0 18px 0; }
